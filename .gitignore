@@ -1,0 +1,12 @@
+# ignore processed data (ไฟล์ใหญ่)
+data/processed/
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# system
+.DS_Store

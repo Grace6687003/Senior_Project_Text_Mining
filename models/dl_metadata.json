@@ -1,0 +1,14 @@
+{
+  "model_name": "BiLSTM",
+  "max_vocab_size": 10000,
+  "max_sequence_length": 38,
+  "num_classes": 6,
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad"
+  ]
+}
