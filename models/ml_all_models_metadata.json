@@ -1,62 +1,31 @@
-[
-  {
-    "model_name": "Logistic Regression",
-    "file_path": "../models/ml_models\\logistic_regression.joblib",
-    "classes": [
-      "angry",
-      "disgust",
-      "fear",
-      "happy",
-      "neutral",
-      "sad"
-    ],
-    "Accuracy": 0.9074074074074074,
-    "F1_Macro": 0.9229349059800218,
-    "F1_Weighted": 0.9074975631801844
+{
+  "Naive Bayes": {
+    "model_path": "../models/ml_models\\naive_bayes.joblib",
+    "prediction_column": "naive_bayes_pred",
+    "has_predict_proba": true
   },
-  {
-    "model_name": "Support Vector Machine",
-    "file_path": "../models/ml_models\\svm.joblib",
-    "classes": [
-      "angry",
-      "disgust",
-      "fear",
-      "happy",
-      "neutral",
-      "sad"
-    ],
-    "Accuracy": 0.9228395061728395,
-    "F1_Macro": 0.9355279613832796,
-    "F1_Weighted": 0.9229000210514525
+  "Logistic Regression": {
+    "model_path": "../models/ml_models\\logistic_regression.joblib",
+    "prediction_column": "logistic_regression_pred",
+    "has_predict_proba": true
   },
-  {
-    "model_name": "Naive Bayes",
-    "file_path": "../models/ml_models\\naive_bayes.joblib",
-    "classes": [
-      "angry",
-      "disgust",
-      "fear",
-      "happy",
-      "neutral",
-      "sad"
-    ],
-    "Accuracy": 0.8672839506172839,
-    "F1_Macro": 0.8803178876379372,
-    "F1_Weighted": 0.863803074876999
+  "Random Forest": {
+    "model_path": "../models/ml_models\\random_forest.joblib",
+    "prediction_column": "random_forest_pred",
+    "has_predict_proba": true
   },
-  {
-    "model_name": "Random Forest",
-    "file_path": "../models/ml_models\\random_forest.joblib",
-    "classes": [
-      "angry",
-      "disgust",
-      "fear",
-      "happy",
-      "neutral",
-      "sad"
-    ],
-    "Accuracy": 0.8765432098765432,
-    "F1_Macro": 0.8975989584963945,
-    "F1_Weighted": 0.8768453680609426
-  }
-]
+  "Support Vector Machine": {
+    "model_path": "../models/ml_models\\support_vector_machine.joblib",
+    "prediction_column": "support_vector_machine_pred",
+    "has_predict_proba": true
+  },
+  "labels": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad"
+  ],
+  "vectorizer_file": "../models/vectorizer.joblib"
+}
