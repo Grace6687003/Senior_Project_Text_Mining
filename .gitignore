@@ -1,6 +1,11 @@
 # ignore processed data (ไฟล์ใหญ่)
 data/processed/
 
+# ignore large pretrained transformer model weights (>100MB, exceeds GitHub limit)
+models/bert_model/
+models/roberta_model/
+models/clinicalbert_model/
+
 # python
 __pycache__/
 *.pyc
