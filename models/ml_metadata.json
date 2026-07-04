@@ -1,0 +1,4 @@
+{
+  "best_model_name": "SVM",
+  "best_val_f1_macro": 0.9366919155136243
+}
